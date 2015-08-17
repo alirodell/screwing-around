@@ -47,3 +47,6 @@ while True and event != ord('q'):
                         elif reallyInsideEvent == ord('q'): break
                 elif insideEvent == ord('q'): break
         elif event == ord('2'): break
+
+# Exit the menu and return to the cursor
+curses.endwin()
