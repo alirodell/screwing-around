@@ -50,8 +50,9 @@ while True and event != ord('q'):
                 screen.clear()
                 screen.border(0)
                 screen.addstr(2, 2, "First or second, there is no winner in Global Thermonuclear War.")
-                screen.addstr(4, 2, "Alas, we have both lost this game.  Perhaps next time we should play a nice game of chess.")
-                screen.addstr(6, 2, "Press 1 to start again or q to exit.")
+                screen.addstr(4, 2, "Alas, we have both lost this game.")
+                screen.addstr(6, 2, "Perhaps next time we should play a nice game of chess.")
+                screen.addstr(10, 2, "Press 1 to start again or q to exit.")
                
             elif reallyInsideEvent == ord('q'): break
         elif insideEvent == ord('q'): break     
